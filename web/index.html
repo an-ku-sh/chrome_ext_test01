@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+
+<html style="height: 500px; width: 300px;">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -32,15 +33,15 @@
   <title>chrome_ext_test01</title>
   <link rel="manifest" href="manifest.json">
 
-  <script>
+  <!-- <script>
     // The value below is injected by flutter build, do not touch.
     const serviceWorkerVersion = null;
-  </script>
+  </script> -->
   <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+  <!-- <script src="flutter.js" defer></script> -->
 </head>
 <body>
-  <script>
+  <!-- <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -54,6 +55,7 @@
         }
       });
     });
-  </script>
+  </script> -->
+  <script src="main.dart.js" type="application/javascript"></script> 
 </body>
 </html>
